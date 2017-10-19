@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<meta name="description" content="Mobile Phone Technology">
+	<meta name="keywords" content="contact forms">
+	<meta name="author" content="Kendra Orr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="lab5.css">
+<head>
+<title>Forms Practice</title>
+
+</head>
+<body>
+<h1>Welcome to a Webpage on NextGeneration phone choices.</h1>
+<p style="font-size: 28px; color: rgb(200, 101, 100)">This page will help you make informative <br />
+choices about choosing cell phones and wireless notepads.</p>
+<p style="style="float: right; font-size: 28px; color: ##00bfff";>Did you know that the next generation telephones for <br />
+ were introduced in 1990.  Here is a brief introduction about them.</p>
+ <h2 style="background-color: silver; border: 2px solid black">This webpage discusses the evolution of cell phone technology.</h2>
+ <textarea rows="5" cols="65" style="background-color: aqua; font-size: 20px";>
+ Did you know that some of the earlier cell phones could not hold network bandwidth capabilities 
+ because the companies used OSPF, or open shortest path first routing information.  This did not allow users to 
+ to call from places too high in altitude or too far from their cell phone number's internet protocol service area. 
+</textarea><hr>
+<table style="border: 8px solid green; font-size: 26px">
+<th colspan="3" style= "background-color: rgb(194, 200, 234); text-shadow: 2px 2px pink; font-style:oblique">Cell phone introduction</th><tr style="background-color: #aeeaae">
+<td>1945--Motorola introduces the first mobile phone.</td></tr>
+<tr style="background-color: gold";>
+<td>1956--The first car telephone is introduced. <a href="https://yasser-nightlife-app.herokuapp.com/"
+ target="_blank">Here is the link with information.</a></td>
+ <tr style="background-color: gray"><td>1993--Text messaging was developed.</td><tr style="background-color: #d9b38c";><td>2002--The first smart phone is introduced.</td>
+ </tr>
+ <tr style="background-color: magenta; color: white"><td>2007--The first Apple iPhone is introduced.&copy;SoftSchools.com</td></tr>
+</table>
+<!--Without action in the form element, it cannot conect to the form.-->
+<section>
+<form name="practiceform" action="http://ss1.ciwcertified.com/cgi-bin/process.p1" method="post">
+<!--Fieldset is a container tag and it must come after the form tag.-->
+<fieldset style="background-color: #ffd480; border 2px 2px solid">
+First Name <input type="text" name="firstname" id="fname" size="40" />  <!--Default is 20-->
+<br /> <br  />
+<!--Name specifies name of input element.-->
+Last Name<input type="text" name="firstname" id="lname" size="40"/>
+<br />
+<br />
+Password <input type="text" name="password" id="pwd" size="40" />
+
+
+<!--Radio buttons are only for you to choose 1 option-->
+<!--Checkboxes are for choosing multiple options.-->
+
+<input type="radio" name="emaillist"  id="emailyes" value="yes" /> Yes  <br />
+<input type="radio" name="emaillist" id="emailno"  value="no" /> No <br />
+<!--Name should be the same since it is going to an email list-->
+
+<h3> What is your favorite nail polish color?</h3>
+<input type="checkbox" name="interest" id="favorite" value="favorite colors" /> Blue <br />
+<input type="checkbox" name="interest" id="favorite"  value="favorite colors" />Magenta <br/>
+<input type="checkbox" name="interest" id="favorite" value="favorite colors"  />Silver <br  />
+<input type="checkbox" name="interest" id="favorite" value="favorite colors"  /> Red <br  />
+<input type="checkbox" name="black"  value="checked"  />  Black <br /> 
+<!--You may use checked in value to make sure users cannot check the value.-->
+
+<!--Select tag is a container tag.-->
+Choose your favorite product brand: 
+<!--Size needs to shows the total number of selections or else you have a blank line.-->
+
+<select name="brand" size="6" multiple>
+
+
+<option value="Christian Dior"></option>
+<option value="Givenchy"></option>
+<option value="Essie"></option>
+<option value="TomFord"></option>
+<option value="Nails, Inc."></option>
+<option value="Marc Jacobs"></option>
+</select> 
+</fieldset>
+</form>
+</section>
+</body>
+</html>
